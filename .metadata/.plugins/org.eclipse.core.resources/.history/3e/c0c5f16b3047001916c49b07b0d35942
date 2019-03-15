@@ -1,0 +1,21 @@
+package com.atguigu.impor;
+
+import org.springframework.beans.factory.support.BeanDefinitionRegistry;
+import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
+import org.springframework.core.type.AnnotationMetadata;
+
+public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar{
+
+	@Override
+	public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
+		// TODO Auto-generated method stub
+		boolean beanDefinition1 = registry.containsBeanDefinition("com.atguigu.bean.Color");
+		boolean beanDefinition2 = registry.containsBeanDefinition("com.atguigu.bean.Red");
+		//判断两个bean是否存在
+		if(beanDefinition1 && beanDefinition2) {
+			
+			importingClassMetadata.getAllAnnotationAttributes("rowBlue", classValuesAsString)
+		}
+	}
+
+}

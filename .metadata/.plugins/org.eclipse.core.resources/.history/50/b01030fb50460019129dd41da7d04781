@@ -1,0 +1,19 @@
+package com.atguigu.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import com.atguigu.bean.Person;
+//使用注解一定要有构造参数，并且是有参的构造参数
+@Configuration  //bean.xml ==>annotationConf方式代替
+//使用注解方式==>默认是扫描所有,可以通过Filers方式设置过滤
+@ComponentScan(value="com.atguigu")
+//
+public class PersonConfig {
+
+	@Bean("person1") //等同配置bean一样  注入一个bean(实体),类型为返回类型，id默认以方法名为id
+	public Person person() {
+		return new Person("李四", 20);
+	}
+}

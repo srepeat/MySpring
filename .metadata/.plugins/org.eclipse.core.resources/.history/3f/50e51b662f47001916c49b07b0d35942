@@ -1,0 +1,14 @@
+package com.atguigu.impor;
+
+import org.springframework.context.annotation.ImportSelector;
+import org.springframework.core.type.AnnotationMetadata;
+
+public class MyImportSelecter implements ImportSelector {
+
+	@Override
+	public String[] selectImports(AnnotationMetadata importingClassMetadata) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

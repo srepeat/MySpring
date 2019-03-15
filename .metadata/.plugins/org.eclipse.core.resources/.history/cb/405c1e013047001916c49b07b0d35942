@@ -1,0 +1,7 @@
+package com.atguigu.impor;
+
+import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
+
+public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar{
+
+}
