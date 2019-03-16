@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Scope;
 
 import com.atguigu.bean.Color;
+import com.atguigu.bean.ColorFactoryBean;
 import com.atguigu.bean.Person;
 import com.atguigu.bean.Red;
 import com.atguigu.conditional.LiunxConditional;
@@ -39,6 +40,7 @@ public class MyConfig {
 	 * 		Import[快速导入一个组件,打印显示全类名] ==>com.atguigu.bean.Color
 	 * 		ImportSelector[返回导入的整个容器的全类名的数组]
 	 *      ImportBeanDefinitionRegistrar
+	 * 
 	 * @return
 	 */
 	//@Scope("prototype")
@@ -62,5 +64,14 @@ public class MyConfig {
 		return new Person("Lucy", 50);
 	}
 	
-	
+	/**
+	 * factoryBean spring的bean工厂
+	 *              ==>1、默认获取到的是bean工厂getObjcetClass(指的类型)
+	 *              ==>2、要获取bean的本身，需要在id前面加&符号 
+	 * @return
+	 */
+	@Bean
+	public ColorFactoryBean colorFactoryBean() {
+		return new ColorFactoryBean();
+	}
 }
