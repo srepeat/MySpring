@@ -1,7 +1,10 @@
 package com.atguigu.bean;
 
 public class Person {
-
+	/**
+	 * ¸øÊôĞÔ¸³Öµ
+	 */
+	
 	private String name;
 	private Integer age;
 	
