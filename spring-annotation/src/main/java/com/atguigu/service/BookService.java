@@ -1,5 +1,8 @@
 package com.atguigu.service;
 
+import javax.annotation.Resource;
+import javax.inject.Inject;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -15,8 +18,10 @@ public class BookService {
 	 * 3、primary装配第一个默认bean组件为首选，也可以使用qualifier指定
 	 */
 
-	@Qualifier("bookDao")
+	@Qualifier("bookDao2")
 	@Autowired(required=false)
+	//@Inject  //JSR300标准
+	//@Resource  //JSR250
 	private BookDao bookDao;
 	
 	public void print() {

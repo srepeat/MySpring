@@ -1,5 +1,7 @@
 package com.atguigu.bean;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Red {
 	
 	private String car;
@@ -8,6 +10,7 @@ public class Red {
 		return car;
 	}
 
+	@Autowired
 	public void setCar(String car) {
 		this.car = car;
 	}

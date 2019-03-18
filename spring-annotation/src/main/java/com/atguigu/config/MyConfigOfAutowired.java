@@ -12,7 +12,7 @@ import com.atguigu.service.BookService;
 
 @Configuration
 //@Import({BookService.class,BookDao.class,BookController.class})
-@ComponentScan({"com.atguigu.service","com.atguigu.dao","com.atguigu.controller"})
+@ComponentScan({"com.atguigu.service","com.atguigu.dao","com.atguigu.controller","com.atguigu.bean"})
 public class MyConfigOfAutowired {
 	/**
 	 * ×Ô¶¯×°Åä;
