@@ -10,6 +10,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import com.atguigu.config.MyConfigOfProfile;
 
+//≤‚ ‘«–ªªª∑æ≥
 public class Test_Profile {
 
 	

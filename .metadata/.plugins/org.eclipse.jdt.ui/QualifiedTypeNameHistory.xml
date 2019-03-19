@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScans"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan.Filter"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.FilterType"/>
 <fullyQualifiedTypeName name="com.atguigu.config.MyTypeFilter"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
@@ -34,22 +29,14 @@
 <fullyQualifiedTypeName name="com.atguigu.bean.Dog"/>
 <fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding"/>
 <fullyQualifiedTypeName name="com.atguigu.bean.MyBeanPostProcessor"/>
-<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="com.atguigu.bean.MyPropertyValue"/>
 <fullyQualifiedTypeName name="com.atguigu.bean.Person"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
 <fullyQualifiedTypeName name="com.atguigu.config.MyConfigOfAutowired"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
-<fullyQualifiedTypeName name="com.atguigu.test.PrintBean"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Import"/>
 <fullyQualifiedTypeName name="com.atguigu.controller.BookController"/>
 <fullyQualifiedTypeName name="com.atguigu.service.BookService"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.atguigu.dao.BookDao"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
 <fullyQualifiedTypeName name="javax.inject.Inject"/>
@@ -57,7 +44,20 @@
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContextAware"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.BeanNameAware"/>
-<fullyQualifiedTypeName name="org.springframework.context.EmbeddedValueResolverAware"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+<fullyQualifiedTypeName name="org.springframework.context.EmbeddedValueResolverAware"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.springframework.util.StringValueResolver"/>
+<fullyQualifiedTypeName name="com.mchange.v2.c3p0.ComboPooledDataSource"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="com.atguigu.config.MyConfigOfProfile"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="com.atguigu.test.PrintBean"/>
 </qualifiedTypeNameHistroy>
