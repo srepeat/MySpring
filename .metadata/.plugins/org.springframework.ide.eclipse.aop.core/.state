@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="spring-annotation"/>
+<aop-project name="school-manager"/>
+<aop-project name="school-web"/>
 </aop-reference-model>

@@ -1,0 +1,19 @@
+#register_body{
+	width:360px;
+	height:230px;
+	margin:auto;
+	margin-top:200px;
+	padding:1px 0px;
+	border-radius:2px;
+	background:rgb(221,125,50,0.63)
+}
+.register_body_one{
+	margin-top:15px;
+}
+body{
+	background:gray;
+}
+*{
+	padding:0px;
+	margin:0px;
+}
