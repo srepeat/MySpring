@@ -14,11 +14,12 @@ public class Test_aop {
 	//≤‚ ‘beanπ§≥ß
 	@Test
 	public void test05() {
-		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(MyConfigOfAspect.class);
+		AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MyConfigOfAspect.class);
 		
 		MyDivision division = applicationContext.getBean(MyDivision.class);
 		division.div(1, 1);
 		
+		applicationContext.close();
 	}
 	
 }
