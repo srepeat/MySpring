@@ -3,4 +3,10 @@
 <typeInfo handle="=spring-annotation/D:\/developer_tools\/repository_pinyougou\/org\/springframework\/spring-core\/4.3.12.RELEASE\/spring-core-4.3.12.RELEASE.jar&lt;org.springframework.core.type.filter(TypeFilter.class[TypeFilter" modifiers="1537" timestamp="1552561181120"/>
 <typeInfo handle="=spring-annotation/D:\/developer_tools\/repository_pinyougou\/org\/springframework\/spring-beans\/4.3.12.RELEASE\/spring-beans-4.3.12.RELEASE.jar&lt;org.springframework.beans(TypeConverter.class[TypeConverter" modifiers="1537" timestamp="1552561179941"/>
 <typeInfo handle="=spring-annotation/D:\/developer_tools\/repository_pinyougou\/org\/springframework\/spring-beans\/4.3.12.RELEASE\/spring-beans-4.3.12.RELEASE.jar&lt;org.springframework.beans.factory.config(BeanPostProcessor.class[BeanPostProcessor" modifiers="1537" timestamp="1552561179941"/>
+<typeInfo handle="=servlet3/E:\/apache-tomcat\/apache-tomcat-7.0.78\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1533291869370"/>
+<typeInfo handle="=servlet3/E:\/apache-tomcat\/apache-tomcat-7.0.78\/lib\/servlet-api.jar&lt;javax.servlet(Filter.class[Filter" modifiers="1537" timestamp="1533291869370"/>
+<typeInfo handle="=servlet3/E:\/Program Files\/Java\/jdk1.8.0_151\/jre\/lib\/rt.jar&lt;java.util.logging(Filter.class[Filter" modifiers="1537" timestamp="1525006775563"/>
+<typeInfo handle="=servlet3/E:\/apache-tomcat\/apache-tomcat-7.0.78\/lib\/servlet-api.jar&lt;javax.servlet(ServletContextListener.class[ServletContextListener" modifiers="1537" timestamp="1533291869370"/>
+<typeInfo handle="=servlet3/E:\/apache-tomcat\/apache-tomcat-7.0.78\/lib\/servlet-api.jar&lt;javax.servlet(ServletContext.class[ServletContext" modifiers="1537" timestamp="1533291869370"/>
+<typeInfo handle="=springmvc-annotation/D:\/developer_tools\/repository_pinyougou\/org\/springframework\/spring-webmvc\/4.3.11.RELEASE\/spring-webmvc-4.3.11.RELEASE.jar&lt;org.springframework.web.servlet.support(AbstractAnnotationConfigDispatcherServletInitializer.class[AbstractAnnotationConfigDispatcherServletInitializer" modifiers="1057" timestamp="1553173968557"/>
 </typeInfoHistroy>

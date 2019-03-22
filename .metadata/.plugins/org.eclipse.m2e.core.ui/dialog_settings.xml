@@ -2,11 +2,13 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.atguigu"/>
 			<item value="cn.jcet"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="springmvc-annotation"/>
 			<item value="cn.school.manager"/>
 			<item value="cn.school.common"/>
 			<item value="cn.parate"/>
