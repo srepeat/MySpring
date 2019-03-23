@@ -17,7 +17,6 @@ public class AsyncController {
 	 * @return
 	 */
 	
-	
 	//开启异步处理
 	@ResponseBody
 	@RequestMapping("/order")

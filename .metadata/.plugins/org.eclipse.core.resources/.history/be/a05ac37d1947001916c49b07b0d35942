@@ -1,7 +1,0 @@
-package com.atguigu.conditional;
-
-import org.springframework.context.annotation.Condition;
-
-public class LiunxConditional implements Condition{
-
-}
