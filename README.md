@@ -35,26 +35,3 @@ AnnotationAwareAspectJAutoProxyCreator这是AOP主要的一个类，基本都是
 还包括了servlet3.0的三大基于注解实现组件
 springMVC的异步以及servlet的异步方法如何开启和执行
 并且实现一个demo案例，通过实例说明DeferredResult<objcet>
-
-
-# 一、Spring Boot 入门
-
-## 1、Spring Boot 简介
-
-> 简化Spring应用开发的一个框架；
->
-> 整个Spring技术栈的一个大整合；
->
-> J2EE开发的一站式解决方案；
-
-## 2、微服务
-
-2014，martin fowler
-
-微服务：架构风格（服务微化）
-
-一个应用应该是一组小型服务；可以通过HTTP的方式进行互通；
-
-单体应用：ALL IN ONE
-
-微服务：每一个功能元素最终都是一个可独立替换和独立升级的软件单元；
